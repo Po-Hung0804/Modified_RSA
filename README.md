@@ -33,3 +33,19 @@ In this implementation, RSA's modulus `n` is the product of three large prime nu
 `1. Input: Ciphertext C, private exponent d, and modulus n.`
 
 `2. Output: Plaintext M, calculated as M = C^d mod n.`
+
+---
+
+
+
+## Insights
+
+1. **Increased Key Length**:
+   - Increasing the bit length of the modulus significantly raises the difficulty of factorization.
+
+2. **Number of Primes**:
+   - Using more primes further enhances security, making factorization more computationally demanding.
+
+3. **GNFS Efficiency**:
+   - Even advanced algorithms like GNFS cannot efficiently factorize 3072-bit RSA keys with three primes.
+
