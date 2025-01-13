@@ -49,3 +49,8 @@ In this implementation, RSA's modulus `n` is the product of three large prime nu
 3. **GNFS Efficiency**:
    - Even advanced algorithms like GNFS cannot efficiently factorize 3072-bit RSA keys with three primes.
 
+---
+## References
+- `1. Israa Al_Barazanchi*1, Shihab A. Shawkat2, Moayed H. Hameed3, Khalid Saeed 
+Lateef Al-badri4, “Modified RSA-based algorithm: a double secure approach”, Dec. 
+2019.` 
